@@ -29,7 +29,7 @@ bin/
 ### Mac OS ###
 .DS_Store
 
-.idea
+.idea/*
 out
 *.ibm
 .vscode
