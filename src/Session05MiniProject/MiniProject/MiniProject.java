@@ -94,6 +94,18 @@ public class MiniProject {
                     }
                     break;
                 case 5:
+                    System.out.print("Nhập chuỗi cần tìm: ");
+                    String key = sc.nextLine().toLowerCase();
+                    boolean found = false;
+                    for (int i = 0; i < currentSize; i++) {
+                        if (arr[i].toLowerCase().contains(key)) {
+                            System.out.println(arr[i]);
+                            found = true;
+                        }
+                    }
+                    if (!found) {
+                        System.out.println("Không có kết quả phù hợp");
+                    }
                     break;
                 case 6:
                     System.out.println("Hẹn gặp bạn vào lần tiếp theo");
